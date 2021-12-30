@@ -4,7 +4,9 @@
 
 body {
     font-family: 'Kanit', sans-serif;
-    margin: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .topsection {
@@ -142,11 +144,12 @@ body {
 .section-3 > div {
     display: flex;
     width: 1200px;
-    background-color: #FFF98A;
+    border: 2px solid black;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
     gap: 50px;
+
 }
 
 .calltoaction {
@@ -169,10 +172,16 @@ body {
     text-decoration: none;
     color: black;
 }
+
 .section-3 div div button {
-    border: 0px;
     padding: 5px;
-    
+    background-color: #FFF98A;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #ebebeb;
+    text-align: center;
 }
     
 
