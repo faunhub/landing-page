@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,700&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,700&family=Montserrat:wght@100;400&family=Secular+One&display=swap');
+
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: -10px;
+}
+
+.topsection {
+    margin-bottom: 60px;
+}
+
+.header {
+    padding: 10px 40px 0px 40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-left: auto;
+    align-items: center;
+    
+}
+
+.header ul li {
+    background-color: #FFF98A;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.intro, .photo {
+    width: 450px;
+    padding: 15px 10px 15px 10px;
+    align-self: center;
+}
+.photo {
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.intro p, button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.intro button {
+    background-color: #FFF98A;
+}
+
+.photo img {
+    width: 460px;
+}
+
+/* This section is the css for the main content of the page.  */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.section-1, .section-2, .section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 div a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.work img {
+    width: 200px;
+}
+
+.section-2 {
+    background-color: #ebebeb;
+    
+}
+
+.section-2 > div {
+    padding: 100px 0px 100px 0px;
+    width: 600px;
+}
+
+.quote {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.author {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: end;
+}
+
+.section-3 > div {
+    display: flex;
+    width: 1200px;
+    background-color: #FFF98A;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.calltoaction {
+    width: 400px;
+}
+
+.calltoaction >p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.calltoaction h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.go {
+    padding: 0px 30px 0px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.section-3 div div button {
+    border: 0px;
+    padding: 5px;
+    
+}
+    
+
+
+
+
+
+
+
