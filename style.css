@@ -13,6 +13,7 @@ body {
     margin-bottom: 60px;
 }
 
+/* header section */
 .header {
     padding: 10px 40px 0px 40px;
     margin-bottom: 30px;
@@ -50,6 +51,7 @@ body {
     color: black;
 }
 
+/* hero section */
 .hero {
     display: flex;
     justify-content: center;
@@ -102,6 +104,7 @@ body {
     align-items: center;
 }
 
+/* section 1 */
 .section-1 div a {
     text-decoration: none;
     font-size: 20px;
@@ -119,9 +122,9 @@ body {
     width: 200px;
 }
 
+/* section 2 */
 .section-2 {
-    background-color: #ebebeb;
-    
+    background-color: #ebebeb;  
 }
 
 .section-2 > div {
@@ -141,6 +144,7 @@ body {
     text-align: end;
 }
 
+/* section 3 */
 .section-3 > div {
     display: flex;
     width: 1200px;
@@ -178,6 +182,7 @@ body {
     background-color: #FFF98A;
 }
 
+/* footer */
 .footer {
     padding: 20px;
     background-color: #ebebeb;
