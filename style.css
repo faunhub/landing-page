@@ -6,6 +6,8 @@ body {
 }
 h1 {
     font-size: 8em;
+    text-align: center;
+    text-transform: uppercase;
 }
 h3 {
     font-size: 4em;
@@ -38,10 +40,36 @@ h3 {
     font-size: 8em;
     color: white;
     text-decoration: none;
+    transition-duration: 0.4s;
 }
 .category div a:hover {
     color: yellow;
 }
+.icon img {
+    width: 30rem;
+    border-radius: 20px;
+    border: black solid 5px;
+    transition-duration: 0.4s;
+}
+.icon img:hover {
+    opacity: 0.7;
+}
+.home {
+    font-family:'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 32px;
+    border: none;
+    background-color: white;
+    transition-duration: 0.4s;
+    text-decoration: underline;
+}
+.home:hover {
+    color: rgb(240, 0, 0);
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (max-width:600px) {
     .category div {
         width: 100%;
@@ -49,10 +77,13 @@ h3 {
     .category div a {
         font-size: 75px;
     }
+    h1 {
+        font-size: 5em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    .icon img {
+        width: 10em;
+    }
 }
-.icon img {
-    width: 30rem;
-    border-radius: 20px;
-    border: black solid 5px;
-}
-
