@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
 
 
-body, a {
+body, a{
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     color: rgb(185, 14, 14);
 }
@@ -48,7 +48,7 @@ h3 {
     color: rgb(255, 255, 0);
 }
 .icon img {
-    width: 30rem;
+    width: 25rem;
     border-radius: 20px;
     border: rgb(185, 14, 14) solid 1em;
     transition-duration: 0.4s;
@@ -73,8 +73,28 @@ h3 {
     flex-wrap: wrap;
     gap: 1em;
 }
+footer {
+    padding: 0.5em;
+    color:rgb(185, 14, 14);
+    text-align: center;
+}
+.about {
+    color: rgb(185, 14, 14);
+    align-self: flex-end;
+    padding-right: 15px;
+}
 
-@media (max-width:450px) {
+.about-section {
+    display: flex;
+    gap: 40px;
+}
+.photoSelf {
+    width: 30em;
+}
+.content, .repos, .about-section {
+    padding: 0 10em 0 10em;
+}
+@media (max-width:550px) {
     .category div {
         width: 100%;
     }
@@ -90,9 +110,11 @@ h3 {
     .icon img {
         width: 10em;
     }
+    .about-section {
+        flex-direction: column;
+    }
+    .content, .repos, .about-section {
+        padding: 0 0 0 0;
+    }
 }
-footer {
-    padding: 0.5em;
-    color:rgb(185, 14, 14);
-    text-align: center;
-}
+
